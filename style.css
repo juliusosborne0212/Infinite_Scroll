@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Oxygen:wght@300;400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Oxygen, sans-serif;
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    animation: blink 7s linear infinite;
+}
+
+.blink {
+    background-color: whitesmoke;
+}
+
+@keyframes blink {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: .5;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+.Earth {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.Earth img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px){
+    h1 {
+        font-size: 20px;
+    }
+    .image-container {
+        margin: 10px;
+    }
+}
