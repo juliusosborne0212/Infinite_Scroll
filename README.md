@@ -1,6 +1,6 @@
 # Infinite_Scroll
 # Currently working on https://zerotomastery.io/courses/advanced-javascript-concepts/  . it’s a 20 projects-based JavaScript. This is 2 / 20.
-# The Infinite Scroll project is based on idea of using API to fetch data from a site called https://unsplash.com/s/photos/api  which involves with the use of APIkey and also to have the ability for the end user to scroll through the photos and each time the user scrolls more pictures are loaded without the end user #realizing the photos have an end to it. 
+# The Infinite Scroll project is based on idea of using API to fetch data from a site called https://unsplash.com/s/photos/api  which involves with the use of APIkey and also to have the ability for the end user to scroll through the photos and each time the user scrolls more pictures are loaded without the end user knowing the pictures are being loaded. 
 # Below are the instructions on how to register your API KEY. 
 
 # https://unsplash.com/documentation. 
